@@ -1,0 +1,77 @@
+{
+  "gifs": [
+    {
+      "url": "https://media.tenor.com/Q6ZP36z0jSIAAAAC/clown-juggle.gif",
+      "source": "Tenor",
+      "license": "Free to share (check Tenor terms for commercial use)",
+      "attribution": "Via Tenor"
+    },
+    {
+      "url": "https://media.tenor.com/_ZDmeqj-8UAAAAAC/crypto-flash.gif",
+      "source": "Tenor",
+      "license": "Free to share (check Tenor terms for commercial use)",
+      "attribution": "Via Tenor"
+    },
+    {
+      "url": "https://media.tenor.com/ONPsCke4THAAAAAC/juggling-bad-cgi.gif",
+      "source": "Tenor",
+      "license": "Free to share (check Tenor terms for commercial use)",
+      "attribution": "Via Tenor"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://images.unsplash.com/photo-1596462502278-27bfdc403348",
+      "source": "Unsplash",
+      "license": "Unsplash License (Free for commercial use)",
+      "attribution": "Not required, but recommended"
+    },
+    {
+      "url": "./ClownCircuit/assets/images/clown_1.png",
+      "source": "Generated with Python PIL",
+      "license": "Created for this project (Public Domain)",
+      "attribution": "Not required"
+    },
+    {
+      "url": "./ClownCircuit/assets/images/clown_2.png",
+      "source": "Generated with Python PIL",
+      "license": "Created for this project (Public Domain)",
+      "attribution": "Not required"
+    },
+    {
+      "url": "./ClownCircuit/assets/images/clown_3.png",
+      "source": "Generated with Python PIL",
+      "license": "Created for this project (Public Domain)",
+      "attribution": "Not required"
+    },
+    {
+      "url": "./ClownCircuit/assets/images/clown_4.png",
+      "source": "Generated with Python PIL",
+      "license": "Created for this project (Public Domain)",
+      "attribution": "Not required"
+    }
+  ],
+  "audio": [
+    {
+      "url": "https://freepd.com/music/Circus%20of%20Freaks.mp3",
+      "source": "FreePD.com",
+      "title": "Circus of Freaks",
+      "license": "CC0 1.0 Universal (Public Domain)",
+      "attribution": "Not required"
+    },
+    {
+      "url": "https://freemusicarchive.org/track/circus-march/download/",
+      "source": "Free Music Archive",
+      "title": "Circus March",
+      "license": "CC BY-NC-SA 3.0",
+      "attribution": "Required: See license details"
+    },
+    {
+      "url": "https://freesound.org/data/previews/131/131730_2398403-lq.mp3",
+      "source": "Freesound.org",
+      "title": "Circus Music",
+      "license": "Creative Commons",
+      "attribution": "Check specific track for details"
+    }
+  ]
+}
