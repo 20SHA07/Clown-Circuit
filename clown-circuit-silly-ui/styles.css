@@ -1,0 +1,531 @@
+/* Clown Circuit - Intentionally Bad CSS */
+
+/* Global Reset with chaotic defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Intentionally inconsistent spacing */
+}
+
+/* Body with chaotic background using the clown juggling GIFs */
+body {
+    background-color: #ffccff; /* Garish pink background */
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive; /* Default to comic sans-like font */
+    position: relative;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    color: #330066; /* Hard to read purple text */
+    line-height: 1.4;
+    background-image: url('https://media.tenor.com/Q6ZP36z0jSIAAAAC/clown-juggle.gif');
+    background-size: 150px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-blend-mode: color-dodge;
+}
+
+/* Chaotic Header Styles */
+.chaotic-header {
+    background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 10px dotted #ff0000;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 0 15px 5px rgba(255, 0, 255, 0.7);
+}
+
+.chaotic-header h1 {
+    font-size: 4rem;
+    text-shadow: 3px 3px 0 #ff0000, -3px -3px 0 #00ff00, 3px -3px 0 #0000ff, -3px 3px 0 #ffff00;
+    margin-bottom: 10px;
+    transform: rotate(-2deg);
+    animation: wobble 3s infinite alternate;
+}
+
+.chaotic-header h3 {
+    font-size: 1.5rem;
+    color: #ff0000;
+    text-shadow: 1px 1px 0 #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Marquee styling */
+.marquee-top, .marquee-bottom {
+    background-color: #ffff00;
+    color: #ff00ff;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.marquee-top {
+    margin-bottom: 15px;
+}
+
+.marquee-bottom {
+    margin-top: 15px;
+}
+
+/* Vertical Navigation - intentionally placed on the right */
+.vertical-nav {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(5deg); /* Slightly rotated for chaos */
+    background-color: #00ff00; /* Bright green */
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 99;
+    width: 180px;
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+}
+
+.vertical-nav li {
+    margin: 15px 0;
+    transform: rotate(-2deg); /* Each item slightly rotated */
+}
+
+.vertical-nav li:nth-child(even) {
+    transform: rotate(3deg); /* Alternate rotation for even items */
+}
+
+.vertical-nav a {
+    color: #ff00ff; /* Magenta text */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: block;
+    padding: 8px;
+    background-color: rgba(255, 255, 0, 0.7); /* Semi-transparent yellow */
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.vertical-nav a:hover {
+    background-color: #ff00ff;
+    color: #00ff00;
+    transform: scale(1.1) rotate(-5deg);
+}
+
+/* Main Content Area */
+.chaotic-main {
+    margin-right: 200px; /* Space for the vertical nav */
+    padding: 20px;
+    position: relative;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: rgba(0, 255, 255, 0.7); /* Semi-transparent cyan */
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 5px dashed #ff00ff;
+    transform: rotate(-1deg);
+}
+
+.hero-section h2 {
+    color: #ff0000;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Clown Gallery */
+.clown-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clown-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 200px;
+    transform: rotate(var(--random-rotate, 3deg)); /* Random rotation */
+}
+
+.clown-item:nth-child(odd) {
+    --random-rotate: -3deg;
+}
+
+.clown-item:nth-child(3n) {
+    --random-rotate: 5deg;
+}
+
+.clown-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #ff00ff;
+}
+
+/* Inverted images */
+.to-invert {
+    filter: invert(100%);
+}
+
+.clown-item figcaption,
+.clown-item span,
+.clown-item h4,
+.clown-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* GIF Chaos Section */
+.gif-chaos-section {
+    background-color: rgba(255, 0, 0, 0.7); /* Semi-transparent red */
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 5px dotted #00ff00;
+    position: relative;
+    min-height: 300px;
+}
+
+.gif-chaos-section h2 {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+.background-gif {
+    width: 200px;
+    height: auto;
+    border: 5px ridge #ffff00;
+    border-radius: 50%;
+    animation: spin 10s linear infinite;
+}
+
+#juggle-gif-2 {
+    animation-direction: reverse;
+}
+
+#juggle-gif-3 {
+    animation-duration: 5s;
+}
+
+/* Form Section */
+.form-section {
+    background-color: rgba(255, 255, 0, 0.7); /* Semi-transparent yellow */
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 5px double #0000ff;
+    transform: rotate(1deg);
+}
+
+.form-section h2 {
+    color: #0000ff;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chaotic-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label,
+.form-group p {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0000ff;
+    font-size: 1.2rem;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #ff00ff;
+    border-radius: 10px;
+    background-color: #ffccff;
+    color: #0000ff;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-left: 20px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: inline;
+    margin-left: 8px;
+    color: #660066;
+}
+
+/* Spinning wheel dropdown */
+.spinning-wheel {
+    appearance: none;
+    background-image: url('https://media.tenor.com/ONPsCke4THAAAAAC/juggling-bad-cgi.gif');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.spinning-wheel:focus {
+    animation: spin 2s linear infinite;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/* Moving buttons */
+.moving-button {
+    padding: 15px 30px;
+    background-color: #ff00ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.moving-button:hover {
+    background-color: #00ff00;
+    color: #ff00ff;
+    transform: scale(1.1);
+}
+
+/* Audio Section */
+.audio-section {
+    background-color: rgba(0, 0, 255, 0.7); /* Semi-transparent blue */
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 5px groove #ffff00;
+    transform: rotate(-1deg);
+}
+
+.audio-section h2 {
+    color: #ffff00;
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.audio-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.audio-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    transform: rotate(var(--random-rotate, 2deg));
+}
+
+.audio-item:nth-child(2) {
+    --random-rotate: -3deg;
+}
+
+.audio-item:nth-child(3) {
+    --random-rotate: 4deg;
+}
+
+.audio-item h4 {
+    color: #0000ff;
+    margin-bottom: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.audio-item audio {
+    width: 100%;
+}
+
+/* Infinite Scroll Section */
+.infinite-scroll-section {
+    background-color: rgba(255, 0, 255, 0.7); /* Semi-transparent magenta */
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: 5px outset #00ffff;
+    overflow: hidden;
+}
+
+.infinite-scroll-section h2 {
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.scroll-content {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.scroll-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #00ffff;
+}
+
+.scroll-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff00ff;
+}
+
+/* Footer */
+.chaotic-footer {
+    background: linear-gradient(135deg, #0000ff, #ff00ff);
+    color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 10px wavy #ffff00;
+    position: relative;
+    z-index: 100;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.footer-section h3 {
+    color: #ffff00;
+    margin-bottom: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+}
+
+.footer-section p {
+    margin-bottom: 8px;
+}
+
+.footer-section a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ffff00;
+    text-decoration: underline wavy;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 3px dotted #ffff00;
+}
+
+/* Animations */
+@keyframes wobble {
+    0% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Media Queries for some responsiveness (but still chaotic) */
+@media (max-width: 768px) {
+    .vertical-nav {
+        position: static;
+        transform: none;
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .chaotic-main {
+        margin-right: 0;
+    }
+    
+    .clown-gallery {
+        justify-content: center;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+}
